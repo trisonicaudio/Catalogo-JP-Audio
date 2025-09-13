@@ -1,0 +1,136 @@
+[
+  {
+    "id": "jp-sub-12-500w",
+    "nome": "JP Sub 12\" 500W",
+    "categoria": "subwoofer",
+    "potencia": 500,
+    "preco": 899.90,
+    "descricao": "Subwoofer de 12 polegadas com 500W RMS, ideal para sistemas de som automotivo de alta qualidade.",
+    "especificacoes": {
+      "potencia_rms": "500W",
+      "potencia_pico": "1000W",
+      "impedancia": "4 ohms",
+      "diametro": "12 polegadas",
+      "resposta_frequencia": "25Hz - 250Hz",
+      "sensibilidade": "88dB",
+      "peso": "8.5kg"
+    },
+    "imagens": [
+      "/images/jp-sub-12-500w-front.jpg",
+      "/images/jp-sub-12-500w-side.jpg",
+      "/images/jp-sub-12-500w-back.jpg"
+    ],
+    "aplicacoes": [
+      "Som automotivo",
+      "Home theater",
+      "Sistemas de PA"
+    ],
+    "documentos": [
+      {
+        "tipo": "manual",
+        "nome": "Manual do Usuário",
+        "url": "/docs/jp-sub-12-500w-manual.pdf"
+      },
+      {
+        "tipo": "especificacoes",
+        "nome": "Especificações Técnicas",
+        "url": "/docs/jp-sub-12-500w-specs.pdf"
+      }
+    ],
+    "curvas": [
+      {
+        "tipo": "resposta_frequencia",
+        "imagem": "/images/jp-sub-12-500w-frequency-response.jpg"
+      },
+      {
+        "tipo": "impedancia",
+        "imagem": "/images/jp-sub-12-500w-impedance.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "titulo": "Demonstração JP Sub 12\" 500W",
+        "url": "https://youtube.com/watch?v=exemplo1"
+      }
+    ]
+  },
+  {
+    "id": "jp-mid-6-300w",
+    "nome": "JP Mid 6\" 300W",
+    "categoria": "mid-range",
+    "potencia": 300,
+    "preco": 459.90,
+    "descricao": "Alto-falante mid-range de 6 polegadas com 300W RMS, perfeito para médios cristalinos.",
+    "especificacoes": {
+      "potencia_rms": "300W",
+      "potencia_pico": "600W",
+      "impedancia": "8 ohms",
+      "diametro": "6 polegadas",
+      "resposta_frequencia": "80Hz - 8kHz",
+      "sensibilidade": "92dB",
+      "peso": "2.8kg"
+    },
+    "imagens": [
+      "/images/jp-mid-6-300w-front.jpg",
+      "/images/jp-mid-6-300w-side.jpg"
+    ],
+    "aplicacoes": [
+      "Som automotivo",
+      "Sistemas de PA",
+      "Monitores de estúdio"
+    ],
+    "documentos": [
+      {
+        "tipo": "manual",
+        "nome": "Manual do Usuário",
+        "url": "/docs/jp-mid-6-300w-manual.pdf"
+      }
+    ],
+    "curvas": [
+      {
+        "tipo": "resposta_frequencia",
+        "imagem": "/images/jp-mid-6-300w-frequency-response.jpg"
+      }
+    ],
+    "videos": []
+  },
+  {
+    "id": "jp-tweeter-1-100w",
+    "nome": "JP Tweeter 1\" 100W",
+    "categoria": "tweeter",
+    "potencia": 100,
+    "preco": 189.90,
+    "descricao": "Tweeter de 1 polegada com 100W RMS, para agudos cristalinos e definidos.",
+    "especificacoes": {
+      "potencia_rms": "100W",
+      "potencia_pico": "200W",
+      "impedancia": "4 ohms",
+      "diametro": "1 polegada",
+      "resposta_frequencia": "2kHz - 20kHz",
+      "sensibilidade": "95dB",
+      "peso": "0.8kg"
+    },
+    "imagens": [
+      "/images/jp-tweeter-1-100w-front.jpg"
+    ],
+    "aplicacoes": [
+      "Som automotivo",
+      "Home theater",
+      "Sistemas de PA"
+    ],
+    "documentos": [
+      {
+        "tipo": "manual",
+        "nome": "Manual do Usuário",
+        "url": "/docs/jp-tweeter-1-100w-manual.pdf"
+      }
+    ],
+    "curvas": [
+      {
+        "tipo": "resposta_frequencia",
+        "imagem": "/images/jp-tweeter-1-100w-frequency-response.jpg"
+      }
+    ],
+    "videos": []
+  }
+]
