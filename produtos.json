@@ -1,0 +1,168 @@
+[
+  {
+    "id": "mb6x9-350-evo",
+    "nome": "MB6x9 350W EVO",
+    "categoria": "Mid-High",
+    "potencia": 350,
+    "highlights": ["Voz à frente", "Carcaça em alumínio", "CCAW 2”"],
+    "specs": [
+      "Fs 97,57 Hz · SPL 95,84 dB · Xmax 3,5 mm",
+      "Filtros: HP 220 Hz (24 dB) · LP 8 kHz (18 dB)",
+      "Amplificação sugerida: 350‑700 W RMS"
+    ],
+    "specs_full": {
+      "Impedância": "4 Ω (outras sob consulta)",
+      "Sensibilidade": "95,84 dB (1W/1m)",
+      "Diâmetro da bobina": "2” CCAW",
+      "Suspensão": "Tecido impregnado",
+      "Carcaça": "Alumínio fundido",
+      "Conexões": "Terminais Faston"
+    },
+    "response_curve_img": "",
+    "media": {
+      "fotos": [],
+      "videos": []
+    },
+    "aplicacoes": {
+      "estilo": "Trio Goiano / Som interno de presença",
+      "cortes": "HPF 220 Hz (24 dB) | LPF 8 kHz (18 dB)",
+      "amps_sugeridos": "350–700 W RMS reais, com ajuste de ganho e limiter",
+      "caixas": "Em portas/painéis rígidos ganha ataque e projeção"
+    },
+    "venda": {
+      "dor": "Quando o grave sobe, a voz some e o cliente perde presença no trio.",
+      "ganho": "O MB6x9 EVO projeta médios limpos: a voz fica na frente sem fadiga.",
+      "prova": "Carcaça em alumínio + bobina CCAW 2” = estabilidade térmica e baixa compressão.",
+      "oferta": "Descontos progressivos + suporte de regulagem para saída plug & ganhar.",
+      "bullets": [
+        "Voz na frente mesmo com graves fortes",
+        "Construção premium: alumínio + CCAW",
+        "Seguro: cortes indicados + limiter",
+        "Menos fadiga: timbre limpo e presente"
+      ]
+    },
+    "documentos": []
+  },
+  {
+    "id": "tweeter-xr-160",
+    "nome": "Tweeter XR 160 W",
+    "categoria": "Tweeter",
+    "potencia": 160,
+    "highlights": ["Brilho e definição", "Carcaça alumínio", "Bobina 47 mm"],
+    "specs": [
+      "Resposta 2,5 kHz – 18 kHz",
+      "HP 5 kHz (12 dB) uso exclusivo · HP 3,5 kHz (12 dB) com driver"
+    ],
+    "specs_full": {
+      "Impedância": "4 Ω",
+      "Diâmetro da bobina": "47 mm (cobre)",
+      "Membrana": "Blenda",
+      "Carcaça": "Alumínio",
+      "Fixação": "Rosca padrão"
+    },
+    "response_curve_img": "",
+    "media": {
+      "fotos": [],
+      "videos": []
+    },
+    "aplicacoes": {
+      "estilo": "Trio Goiano com brilho controlado e alta eficiência",
+      "cortes": "HPF 5 kHz (12 dB) exclusivo | 3,5 kHz (12 dB) com driver",
+      "amps_sugeridos": "Usar divisor passivo ou DSP, limiter leve em picos",
+      "caixas": ""
+    },
+    "venda": {
+      "dor": "Agudo some no ambiente aberto ou fica áspero demais.",
+      "ganho": "Brilho intenso e definido, sem tornar o som agressivo.",
+      "prova": "Carcaça de alumínio e bobina grande ajudam a manter estabilidade.",
+      "oferta": "Pacotes com drivers para kits de voz de alto impacto.",
+      "bullets": [
+        "Agudo presente e controlado",
+        "Integra fácil com drivers",
+        "Resistente a uso prolongado"
+      ]
+    },
+    "documentos": []
+  },
+  {
+    "id": "dp100-tg",
+    "nome": "Driver DP100 TG",
+    "categoria": "Driver",
+    "potencia": 100,
+    "highlights": ["Poliimida", "Corpo robusto", "Voz presente"],
+    "specs": [
+      "Bobina 41 mm Kapton · corneta alumínio",
+      "HP 1,5–2,5 kHz · LP 8–10 kHz"
+    ],
+    "specs_full": {
+      "Impedância": "8 Ω (opções sob consulta)",
+      "Membrana": "Poliimida",
+      "Bocal/Corneta": "Alumínio",
+      "Altura de instalação": "~65 mm",
+      "Frente": "120×120 mm"
+    },
+    "response_curve_img": "",
+    "media": {
+      "fotos": [],
+      "videos": []
+    },
+    "aplicacoes": {
+      "estilo": "Trio Goiano com voz muito à frente",
+      "cortes": "HPF 1,5–2,5 kHz | LPF 8–10 kHz",
+      "amps_sugeridos": "100–200 W RMS com limiter e ganho ajustado",
+      "caixas": ""
+    },
+    "venda": {
+      "dor": "Falta vocal nas médias-altas; voz não se destaca no conjunto.",
+      "ganho": "Presença vocal com timbre claro e projeção longa.",
+      "prova": "Bobina em Kapton e diafragma de poliimida: estabilidade e baixa distorção.",
+      "oferta": "Condições progressivas para kits com tweeter.",
+      "bullets": [
+        "Projeção vocal forte",
+        "Integração fácil com tweeter",
+        "Confiável em volume alto"
+      ]
+    },
+    "documentos": []
+  },
+  {
+    "id": "sw12-1200",
+    "nome": "Subwoofer SW12 1200 W RMS",
+    "categoria": "Subwoofer",
+    "potencia": 1200,
+    "highlights": ["Excursão alta", "Chassi alumínio", "CCAW 2”"],
+    "specs": [
+      "HP 30 Hz (24 dB) · LP 120 Hz (24 dB)",
+      "Amplificação sugerida: 1.200–2.400 W RMS"
+    ],
+    "specs_full": {
+      "Impedância": "4 Ω (bobina 2” CCAW)",
+      "Suspensão": "Espuma",
+      "Chassi": "Alumínio",
+      "Recomendação de caixa": "SQL/Trio conforme projeto"
+    },
+    "response_curve_img": "",
+    "media": {
+      "fotos": [],
+      "videos": []
+    },
+    "aplicacoes": {
+      "estilo": "Graves com corpo e controle para SQL/Trio",
+      "cortes": "HPF 30 Hz (24 dB) | LPF 120 Hz (24 dB)",
+      "amps_sugeridos": "1.2–2.4 kW RMS com limiter e cabos adequados",
+      "caixas": ""
+    },
+    "venda": {
+      "dor": "Grave embolado ou sem extensão segura em alto volume.",
+      "ganho": "Entrega subgrave consistente com ótimo controle de excursão.",
+      "prova": "Chassi de alumínio e bobina CCAW: resistência térmica e mecânica.",
+      "oferta": "Descontos progressivos para kits com MB/driver.",
+      "bullets": [
+        "Subgrave cheio e controlado",
+        "Compatível com setups exigentes",
+        "Projeto robusto e confiável"
+      ]
+    },
+    "documentos": []
+  }
+]
