@@ -51,7 +51,13 @@ const ProductCard = ({ produto, onViewDetails }) => {
 
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
-      {/* Imagem do Produto */}
+      <div className="w-full h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+  {product.imagens && product.imagens.length > 0 ? (
+    <img src={product.imagens[0]} alt={product.nome} className="h-full w-full object-cover transition-transform duration-300 hover:scale-110" />
+  ) : (
+    <span className="text-gray-500">Sem imagem</span>
+  )}
+</div>
       <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center overflow-hidden">
         {produto.imagens && produto.imagens.length > 0 ? (
           <img 
