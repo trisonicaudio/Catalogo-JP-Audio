@@ -1,0 +1,38 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # ou o nome da sua branch principal, se for diferente
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm ⚙️
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8 # ou a versão que você usa
+
+      - name: Setup Node.js ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # ou a versão que você usa
+          cache: 'pnpm'
+
+      - name: Install dependencies 👨🏻‍💻
+        run: pnpm install
+
+      - name: Build project 🏗️
+        run: pnpm run build
+
+      - name: Commit and push changes 🚀
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add dist
+          git commit -m "Automated build by GitHub Actions" || echo "No changes to commit"
+          git push
